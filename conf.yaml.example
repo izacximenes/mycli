@@ -1,0 +1,20 @@
+project:
+  extension: php
+modules:
+  model:
+    description: "create class models"
+    path: "models/"
+    prefix: ""
+    suffix: "_model"
+    template: "templates/start.php"
+  controllers:
+    description: "create class controller"
+    path: "controllers/"
+    prefix: ""
+    suffix: "_controller"
+  shortcommand:
+    command: "scmd"
+    description: "create class shortcommand"
+    path: "shortcommand/"
+    prefix: ""
+    suffix: "_shortcommand"
