@@ -1,4 +1,5 @@
 conf.yaml
 templates/
+controllers/
 models/
 mycli
